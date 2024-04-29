@@ -25,6 +25,7 @@ yarn-error.log*
 # Testing
 coverage
 coverage.json
+generate.py
 
 # Typechain
 typechain
@@ -32,3 +33,4 @@ typechain-types
 
 # Hardhat files
 cache
+
