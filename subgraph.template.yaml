@@ -6,9 +6,9 @@ schema:
 dataSources:
   - kind: ethereum
     name: ConverterRegistryContract
-    network: 
+    network: {{network}}
     source:
-      address: ''
+      address: '{{contract_address}}'
       abi: ConverterRegistryContract
     mapping:
       kind: ethereum/events

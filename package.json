@@ -2,7 +2,7 @@
   "name": "ethereum-blocks",
   "license": "UNLICENSED",
   "scripts": {
-    "print": "python ./generate.py",
+    "deploy-all": "python deploy_all.py",
     "codegen": "graph codegen",
     "build": "graph build",
     "deploy": "graph deploy --node https://api.thegraph.com/deploy/ ptPierre/ethereum-blocks",
@@ -13,7 +13,8 @@
   },
   "dependencies": {
     "@graphprotocol/graph-cli": "0.71.0",
-    "@graphprotocol/graph-ts": "^0.32.0"
+    "@graphprotocol/graph-ts": "^0.32.0",
+    "mustache": "^3.1.0"
   },
   "devDependencies": {
     "matchstick-as": "0.5.0"
