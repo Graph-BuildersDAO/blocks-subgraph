@@ -30,16 +30,18 @@ def deploy_graph(network_name):
         print(f"Failed to deploy for {network_name}: {e}")
 
 def main():
-    config_dir = './config'
+    config_dir = './networks'
     template_path = './subgraph.template.yaml'
+    main_yaml_path = './subgraph.yaml'
     
     configs = read_config_files(config_dir)
     for config in configs:
         output_yaml = render_yaml(template_path, config['content'])
-        yaml_path = f"./{config['name']}_subgraph.yaml"
-        with open(yaml_path, 'w') as file:
+    
+        #yaml_path = f"./{config['name']}_subgraph.yaml"
+        with open(main_yaml_path, 'w') as file:
             file.write(output_yaml)
-        print(f"Generated YAML for {config['content']['network']} at {yaml_path}")
+        print(f"Generated YAML for {config['content']['network']} at {main_yaml_path}")
 
         # Deploy the subgraph
         deploy_graph(config['content']['network'])
