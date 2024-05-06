@@ -1,7 +1,7 @@
 type Global @entity {
   id: Bytes!
-  previousGasLimit: BigInt!
-  gasLimit: BigInt!
+  previousGasFee: BigInt!
+  gasFee: BigInt!
   block: Block!
 }
 

@@ -7,7 +7,7 @@ export function handleBlock(block: ethereum.Block): void {
   const blockEntity = createBlock(block);
 
   global.block = blockEntity.id;
-  global.previousGasLimit = global.gasLimit;
-  global.gasLimit = block.gasLimit;
+  global.previousGasFee = global.gasFee;
+  global.gasFee = block.baseFeePerGas;
   global.save();
 }
