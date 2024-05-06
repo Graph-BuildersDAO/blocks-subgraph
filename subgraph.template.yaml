@@ -5,17 +5,40 @@ schema:
   file: ./schema.graphql
 dataSources:
   - kind: ethereum
-    name: ConverterRegistryContract
+    name: Initialisation
     network: {{network}}
     source:
       address: '{{contract_address}}'
       abi: ConverterRegistryContract
+      startBlock: 0
+      endBlock: 1
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.7
       language: wasm/assemblyscript
       entities:
-        - ConverterAddition
+        - Block
+      abis:
+        - name: ConverterRegistryContract
+          file: ./abis/ConverterRegistryContract.json
+      blockHandlers:
+        - handler: initialisation
+          filter:
+             kind: once
+      file: ./src/initialisation.ts
+  - kind: ethereum
+    name: BlockTracker
+    network: {{network}}
+    source:
+      address: '{{contract_address}}'
+      abi: ConverterRegistryContract
+      startBlock: 1
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.7
+      language: wasm/assemblyscript
+      entities:
+        - Block
       abis:
         - name: ConverterRegistryContract
           file: ./abis/ConverterRegistryContract.json
