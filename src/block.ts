@@ -8,6 +8,6 @@ export function handleBlock(block: ethereum.Block): void {
 
   global.block = blockEntity.id;
   global.previousGasFee = global.gasFee;
-  global.gasFee = block.baseFeePerGas;
+  global.gasFee = blockEntity.baseFeePerGas;
   global.save();
 }

@@ -17,7 +17,7 @@ export const networks : NetworkConfigs=  {
     },
     "mainnet": {
         studioEndpoint: "ethereum-blocks",
-        nextVersion:"v0.0.1"
+        nextVersion:"v0.0.2"
     },
     "avalanche": {
         studioEndpoint: "univ3-avax",

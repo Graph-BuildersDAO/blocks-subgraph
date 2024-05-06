@@ -21,6 +21,11 @@ export function createBlock(block: ethereum.Block): Block {
     blockSize = BigInt.zero()
   }
   blockEntity.size = blockSize;
+  let baseFee = block.baseFeePerGas
+  if(!baseFee){
+    baseFee = BigInt.zero()
+  }
+  blockEntity.baseFeePerGas = baseFee;
   blockEntity.unclesHash = block.unclesHash;
   blockEntity.save();
   return blockEntity;

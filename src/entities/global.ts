@@ -9,7 +9,7 @@ export function createGlobalAndFirstBlock(block: ethereum.Block): void {
   const blockEntity = createBlock(block);
   let global = new Global(globalID);
   global.previousGasFee = BigInt.fromI32(0);
-  global.gasFee = block.baseFeePerGas;
+  global.gasFee = blockEntity.baseFeePerGas;
   global.block = blockEntity.id;
   global.save();
 }
