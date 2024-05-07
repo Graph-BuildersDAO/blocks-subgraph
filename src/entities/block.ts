@@ -2,7 +2,7 @@ import { ethereum, BigInt } from "@graphprotocol/graph-ts";
 
 import { Block } from "../../generated/schema";
 
-export function createBlock(block: ethereum.Block): Block {
+export function createBlock(block: ethereum.Block): void {
   let id = block.hash;
   let blockEntity = new Block(id);
   blockEntity.number = block.number;
@@ -21,12 +21,7 @@ export function createBlock(block: ethereum.Block): Block {
     blockSize = BigInt.zero()
   }
   blockEntity.size = blockSize;
-  let baseFee = block.baseFeePerGas
-  if(!baseFee){
-    baseFee = BigInt.zero()
-  }
-  blockEntity.baseFeePerGas = baseFee;
+  blockEntity.baseFeePerGas = block.baseFeePerGas;
   blockEntity.unclesHash = block.unclesHash;
   blockEntity.save();
-  return blockEntity;
 }

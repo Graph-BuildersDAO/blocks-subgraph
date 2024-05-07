@@ -14,12 +14,11 @@ type Block @entity(immutable: true) {
   difficulty: BigInt!
   totalDifficulty: BigInt!
   gasUsed: BigInt!
-  baseFee: BigInt!
   gasLimit: BigInt!
   receiptsRoot: Bytes!
   transactionsRoot: Bytes!
   stateRoot: Bytes!
   size: BigInt!
   unclesHash: Bytes!
-  baseFeePerGas: BigInt!
+  baseFeePerGas: BigInt
 }
