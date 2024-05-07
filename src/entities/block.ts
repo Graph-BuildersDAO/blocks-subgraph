@@ -17,12 +17,12 @@ export function createBlock(block: ethereum.Block): Block {
   blockEntity.transactionsRoot = block.transactionsRoot;
   blockEntity.stateRoot = block.stateRoot;
   let blockSize = block.size
-  if(!blockSize){
+  if (!blockSize) {
     blockSize = BigInt.zero()
   }
   blockEntity.size = blockSize;
   let baseFee = block.baseFeePerGas
-  if(!baseFee){
+  if (!baseFee) {
     baseFee = BigInt.zero()
   }
   blockEntity.baseFeePerGas = baseFee;
