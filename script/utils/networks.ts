@@ -92,7 +92,7 @@ export const networks: NetworkConfigs = {
         nextVersion: "v0.0.1"
     },
     "matic": {
-        studioEndpoint: "polygon-blocks",
+        studioEndpoint: "matic-blocks",
         nextVersion: "v0.0.1"
     },
     // "mbase": {
@@ -131,12 +131,16 @@ export const networks: NetworkConfigs = {
     //     studioEndpoint: "polygon-zkevm-testnet-blocks",
     //     nextVersion: "v0.0.1"
     // },
+    "polygon-zkevm": {
+        studioEndpoint: "polygon-zkevm-blocks",
+        nextVersion: "v0.0.1"
+    },
+    "polygon-amoy": {
+        studioEndpoint: "polygon-amoy-blocks",
+        nextVersion: "v0.0.1"
+    },
     // "sepolia": {
     //     studioEndpoint: "sepolia-blocks",
-    //     nextVersion: "v0.0.1"
-    // },
-    // "theta-testnet-001": {
-    //     studioEndpoint: "theta-testnet-001-blocks",
     //     nextVersion: "v0.0.1"
     // },
     // "zksync-era-sepolia": {
@@ -147,6 +151,74 @@ export const networks: NetworkConfigs = {
     //     studioEndpoint: "zksync-era-testnet-blocks",
     //     nextVersion: "v0.0.1"
     // },
+    "zksync-era": {
+        studioEndpoint: "zksync-era-blocks",
+        nextVersion: "v0.0.1"
+    },
+    "astar-zkevm-sepolia": {
+        studioEndpoint: "astar-zkevm-sepolia-blocks",
+        nextVersion: "v0.0.1"
+    },
+    "astar-zkevm-mainnet": {
+        studioEndpoint: "astar-zkevm-mainnet-blocks",
+        nextVersion: "v0.0.1"
+    },
+    "zkyoto-testnet": {
+        studioEndpoint: "zkyoto-testnet-blocks",
+        nextVersion: "v0.0.1"
+    },
+    "holesky": {
+        studioEndpoint: "holesky-blocks",
+        nextVersion: "v0.0.1"
+    },
+    "linea": {
+        studioEndpoint: "linea-blocks",
+        nextVersion: "v0.0.1"
+    },
+    "linea-goerli": {
+        studioEndpoint: "linea-goerli-blocks",
+        nextVersion: "v0.0.1"
+    },
+    "base": {
+        studioEndpoint: "base-blocks",
+        nextVersion: "v0.0.1"
+    },
+    "scroll": {
+        studioEndpoint: "scroll-blocks",
+        nextVersion: "v0.0.1"
+    },
+    "scroll-sepolia": {
+        studioEndpoint: "scroll-sepolia-blocks",
+        nextVersion: "v0.0.1"
+    },
+    "blast-mainnet": {
+        studioEndpoint: "blast-mainnet-blocks",
+        nextVersion: "v0.0.1"
+    },
+    "blast-testnet": {
+        studioEndpoint: "blast-testnet-blocks",
+        nextVersion: "v0.0.1"
+    },
+    "mumbai": {
+        studioEndpoint: "mumbai-blocks",
+        nextVersion: "v0.0.1"
+    },
+    "sei-testnet": {
+        studioEndpoint: "sei-testnet-blocks",
+        nextVersion: "v0.0.1"
+    },
+    "etherlink-testnet": {
+        studioEndpoint: "etherlink-testnet-blocks",
+        nextVersion: "v0.0.1"
+    },
+    "xlayer-mainnet": {
+        studioEndpoint: "xlayer-mainnet-blocks",
+        nextVersion: "v0.0.1"
+    },
+    "xlayer-sepolia": {
+        studioEndpoint: "xlayer-sepolia-blocks",
+        nextVersion: "v0.0.1"
+    },
 }
 
 export default networks
