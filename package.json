@@ -3,7 +3,6 @@
   "author": "Graph BuildersDAO",
   "license": "CC BY-NC-ND 4.0",
   "scripts": {
-    "deploy-all": "python deploy_all.py",
     "codegen": "graph codegen",
     "build": "graph build",
     "deploy": "graph deploy --node https://api.thegraph.com/deploy/ ptPierre/ethereum-blocks",
