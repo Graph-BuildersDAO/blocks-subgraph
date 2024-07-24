@@ -24,6 +24,7 @@ const executeComanndErrorReturn = async (command) => {
   try {
     const { stdout, stderr } = await exec(command)
     if (stderr) {
+      console.log(`stderr: ${stderr}`)
       return stderr;
     }
     console.log('stdout:', stdout)
