@@ -232,6 +232,18 @@ export const networks: NetworkConfigs = {
         studioEndpoint: "rootstock-blocks",
         nextVersion: "v0.1.0"
     },
+    "abstract": {
+        studioEndpoint: "blocks-abstract",
+        nextVersion: "v0.1.0"
+    },
+    "abstract-testnet": {
+        studioEndpoint: "blocks-abstract-testnet",
+        nextVersion: "v0.1.0"
+    },
+    "sonic": {
+        studioEndpoint: "blocks-sonic",
+        nextVersion: "v0.1.0"
+    },
 }
 
 export default networks
