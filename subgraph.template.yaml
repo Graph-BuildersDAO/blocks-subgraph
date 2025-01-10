@@ -1,21 +1,20 @@
 specVersion: 1.0.0
-indexerHints:
-  prune: auto
 schema:
   file: ./schema.graphql
 dataSources:
   - kind: ethereum
-    name: ConverterRegistryContract
-    network: mainnet
+    name: BlockTracker
+    network: {{network}}
     source:
-      address: "0x0ddff327ddf7fe838e3e63d02001ef23ad1ede8e"
+      address: '{{contract_address}}'
       abi: ConverterRegistryContract
+      startBlock: 0
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.7
       language: wasm/assemblyscript
       entities:
-        - ConverterAddition
+        - Block
       abis:
         - name: ConverterRegistryContract
           file: ./abis/ConverterRegistryContract.json
