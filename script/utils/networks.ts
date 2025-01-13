@@ -238,7 +238,7 @@ export const networks: NetworkConfigs = {
     },
     "corn": {
         studioEndpoint: "corn-blocks",
-        nextVersion: "v0.1.0"
+        nextVersion: "v0.2.0"
     },
 }
 
