@@ -238,11 +238,11 @@ export const networks: NetworkConfigs = {
     },
     "abstract-testnet": {
         studioEndpoint: "blocks-abstract-testnet",
-        nextVersion: "v0.1.0"
+        nextVersion: "v0.2.0"
     },
     "sonic": {
         studioEndpoint: "blocks-sonic",
-        nextVersion: "v0.1.0"
+        nextVersion: "v0.2.0"
     },
 }
 
