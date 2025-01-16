@@ -216,6 +216,16 @@ export const networks: NetworkConfigs = {
         studioEndpoint: "sei-testnet-blocks",
         nextVersion: "v0.1.0"
     },
+
+    "sei-mainnet": {
+        studioEndpoint: "sei-mainnet-blocks",
+        nextVersion: "v0.1.0"
+    },
+    "etherlink-mainnet": {
+        studioEndpoint: "etherlink-mainnet-blocks",
+        nextVersion: "v0.1.0"
+    },
+
     "etherlink-testnet": {
         studioEndpoint: "etherlink-testnet-blocks",
         nextVersion: "v0.1.0"
