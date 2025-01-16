@@ -9,14 +9,14 @@
     "create-local": "graph create --node http://localhost:8020/ ptPierre/ethereum-blocks",
     "remove-local": "graph remove --node http://localhost:8020/ ptPierre/ethereum-blocks",
     "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 ptPierre/ethereum-blocks",
-    "deploy-studio": "graph build && graph deploy --studio ",
+    "deploy-studio": "graph build && graph deploy",
     "prepare-build": "cross-env ts-node ./script/build",
     "deploy-all-studio": "cross-env ts-node ./script/deploy-studio",
     "deploy-single-studio": "cross-env ts-node ./script/deploy-single",
     "test": "graph test"
   },
   "devDependencies": {
-    "@graphprotocol/graph-cli": "0.71.0",
+    "@graphprotocol/graph-cli": "^0.86.0",
     "@graphprotocol/graph-ts": "^0.35.1",
     "@types/node": "^18.11.18",
     "cross-env": "^7.0.3",
