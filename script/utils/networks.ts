@@ -252,7 +252,14 @@ export const networks: NetworkConfigs = {
         studioEndpoint: "corn-blocks",
         nextVersion: "v0.2.0"
     },
-
+    "berachain": {
+        studioEndpoint: "berachain-blocks",
+        nextVersion: "v0.2.0"
+    },
+    "unichain": {
+        studioEndpoint: "unichain-blocks",
+        nextVersion: "v0.2.0"
+    }
 }
 
 export default networks
