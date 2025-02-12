@@ -254,11 +254,11 @@ export const networks: NetworkConfigs = {
     },
     "berachain": {
         studioEndpoint: "berachain-blocks",
-        nextVersion: "v0.1.0"
+        nextVersion: "v0.2.0"
     },
     "unichain": {
         studioEndpoint: "unichain-blocks",
-        nextVersion: "v0.1.0"
+        nextVersion: "v0.2.0"
     }
 }
 
