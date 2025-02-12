@@ -244,6 +244,15 @@ export const networks: NetworkConfigs = {
         studioEndpoint: "blocks-sonic",
         nextVersion: "v0.2.0"
     },
+    "lumia": {
+        studioEndpoint: "lumia-blocks",
+        nextVersion: "v0.2.0"
+    },
+    "corn": {
+        studioEndpoint: "corn-blocks",
+        nextVersion: "v0.2.0"
+    },
+
 }
 
 export default networks
