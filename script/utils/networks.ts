@@ -85,191 +85,191 @@ export const networks: NetworkConfigs = {
     // },
 
     //DEPRECATE ALL ABOVE
-    "base-sepolia": {
-        studioEndpoint: "base-sepolia-blocks",
-        nextVersion: "v0.1.0"
-    },
-    "arbitrum-sepolia": {
-        studioEndpoint: "arbitrum-sepolia-blocks",
-        nextVersion: "v0.1.0"
-    },
+    // "base-sepolia": {
+    //     studioEndpoint: "base-sepolia-blocks",
+    //     nextVersion: "v0.1.0"
+    // },
+    // "arbitrum-sepolia": {
+    //     studioEndpoint: "arbitrum-sepolia-blocks",
+    //     nextVersion: "v0.1.0"
+    // },
     // "arweave-mainnet": {
     //     studioEndpoint: "arweave-mainnet-blocks",
     //     nextVersion: "v0.1.0"
     // },
-    "aurora": {
-        studioEndpoint: "aurora-blocks",
-        nextVersion: "v0.1.0"
-    },
-    "aurora-testnet": {
-        studioEndpoint: "aurora-testnet-blocks",
-        nextVersion: "v0.1.0"
-    },
+    // "aurora": {
+    //     studioEndpoint: "aurora-blocks",
+    //     nextVersion: "v0.1.0"
+    // },
+    // "aurora-testnet": {
+    //     studioEndpoint: "aurora-testnet-blocks",
+    //     nextVersion: "v0.1.0"
+    // },
    
-    "celo-alfajores": {
-        studioEndpoint: "celo-alfajores-blocks",
-        nextVersion: "v0.1.0"
-    },
-    "chapel": {
-        studioEndpoint: "bnb-bruno-blocks",
-        nextVersion: "v0.1.0"
-    },
+    // "celo-alfajores": {
+    //     studioEndpoint: "celo-alfajores-blocks",
+    //     nextVersion: "v0.1.0"
+    // },
+    // "chapel": {
+    //     studioEndpoint: "bnb-bruno-blocks",
+    //     nextVersion: "v0.1.0"
+    // },
     // "clover": {
     //     studioEndpoint: "clover-blocks",
     //     nextVersion: "v0.1.0"
     // },
    
-    "fantom-testnet": {
-        studioEndpoint: "fantom-testnet-blocks",
-        nextVersion: "v0.1.0"
-    },
-    "fuji": {
-        studioEndpoint: "avalanche-fuji-blocks",
-        nextVersion: "v0.1.0"
-    },
+    // "fantom-testnet": {
+    //     studioEndpoint: "fantom-testnet-blocks",
+    //     nextVersion: "v0.1.0"
+    // },
+    // "fuji": {
+    //     studioEndpoint: "avalanche-fuji-blocks",
+    //     nextVersion: "v0.1.0"
+    // },
    
-    "mbase": {
-        studioEndpoint: "moonbase-alpha-blocks",
-        nextVersion: "v0.1.0"
-    },
+    // "mbase": {
+    //     studioEndpoint: "moonbase-alpha-blocks",
+    //     nextVersion: "v0.1.0"
+    // },
 
-    "optimism-sepolia": {
-        studioEndpoint: "optimism-sepolia-blocks",
-        nextVersion: "v0.1.0"
-    },
-    "osmo-test-4": {
-        studioEndpoint: "osmo-test-4-blocks",
-        nextVersion: "v0.1.0"
-    },
-    "osmosis-1": {
-        studioEndpoint: "osmosis-1-blocks",
-        nextVersion: "v0.1.0"
-    },
-    "poa-core": {
-        studioEndpoint: "poa-core-blocks",
-        nextVersion: "v0.1.0"
-    },
-    "polygon-zkevm-testnet": {
-        studioEndpoint: "polygon-zkevm-testnet-blocks",
-        nextVersion: "v0.1.0"
-    },
+    // "optimism-sepolia": {
+    //     studioEndpoint: "optimism-sepolia-blocks",
+    //     nextVersion: "v0.1.0"
+    // },
+    // "osmo-test-4": {
+    //     studioEndpoint: "osmo-test-4-blocks",
+    //     nextVersion: "v0.1.0"
+    // },
+    // "osmosis-1": {
+    //     studioEndpoint: "osmosis-1-blocks",
+    //     nextVersion: "v0.1.0"
+    // },
+    // "poa-core": {
+    //     studioEndpoint: "poa-core-blocks",
+    //     nextVersion: "v0.1.0"
+    // },
+    // "polygon-zkevm-testnet": {
+    //     studioEndpoint: "polygon-zkevm-testnet-blocks",
+    //     nextVersion: "v0.1.0"
+    // },
   
-    "polygon-amoy": {
-        studioEndpoint: "polygon-amoy-blocks",
-        nextVersion: "v0.1.0"
-    },
-    "sepolia": {
-        studioEndpoint: "sepolia-blocks",
-        nextVersion: "v0.1.0"
-    },
-    "zksync-era-sepolia": {
-        studioEndpoint: "zksync-era-sepolia-blocks",
-        nextVersion: "v0.1.0"
-    },
-    "zksync-era-testnet": {
-        studioEndpoint: "zksync-era-testnet-blocks",
-        nextVersion: "v0.1.0"
-    },
-    "zksync-era": {
-        studioEndpoint: "zksync-era-blocks",
-        nextVersion: "v0.1.0"
-    },
-    "astar-zkevm-sepolia": {
-        studioEndpoint: "astar-zkevm-sepolia-blocks",
-        nextVersion: "v0.1.0"
-    },
-    "astar-zkevm-mainnet": {
-        studioEndpoint: "astar-zkevm-blocks",
-        nextVersion: "v0.1.0"
-    },
-    "zkyoto-testnet": {
-        studioEndpoint: "zkyoto-testnet-blocks",
-        nextVersion: "v0.1.0"
-    },
-    "holesky": {
-        studioEndpoint: "holesky-blocks",
-        nextVersion: "v0.1.0"
-    },
+    // "polygon-amoy": {
+    //     studioEndpoint: "polygon-amoy-blocks",
+    //     nextVersion: "v0.1.0"
+    // },
+    // "sepolia": {
+    //     studioEndpoint: "sepolia-blocks",
+    //     nextVersion: "v0.1.0"
+    // },
+    // "zksync-era-sepolia": {
+    //     studioEndpoint: "zksync-era-sepolia-blocks",
+    //     nextVersion: "v0.1.0"
+    // },
+    // "zksync-era-testnet": {
+    //     studioEndpoint: "zksync-era-testnet-blocks",
+    //     nextVersion: "v0.1.0"
+    // },
+    // "zksync-era": {
+    //     studioEndpoint: "zksync-era-blocks",
+    //     nextVersion: "v0.1.0"
+    // },
+    // "astar-zkevm-sepolia": {
+    //     studioEndpoint: "astar-zkevm-sepolia-blocks",
+    //     nextVersion: "v0.1.0"
+    // },
+    // "astar-zkevm-mainnet": {
+    //     studioEndpoint: "astar-zkevm-blocks",
+    //     nextVersion: "v0.1.0"
+    // },
+    // "zkyoto-testnet": {
+    //     studioEndpoint: "zkyoto-testnet-blocks",
+    //     nextVersion: "v0.1.0"
+    // },
+    // "holesky": {
+    //     studioEndpoint: "holesky-blocks",
+    //     nextVersion: "v0.1.0"
+    // },
  
-    "linea-goerli": {
-        studioEndpoint: "linea-goerli-blocks",
-        nextVersion: "v0.1.0"
-    },
+    // "linea-goerli": {
+    //     studioEndpoint: "linea-goerli-blocks",
+    //     nextVersion: "v0.1.0"
+    // },
  
-    "scroll-sepolia": {
-        studioEndpoint: "scroll-sepolia-blocks",
-        nextVersion: "v0.1.0"
-    },
-    "blast-mainnet": {
-        studioEndpoint: "blast-blocks",
-        nextVersion: "v0.1.0"
-    },
-    "blast-testnet": {
-        studioEndpoint: "blast-testnet-blocks",
-        nextVersion: "v0.1.0"
-    },
+    // "scroll-sepolia": {
+    //     studioEndpoint: "scroll-sepolia-blocks",
+    //     nextVersion: "v0.1.0"
+    // },
+    // "blast-mainnet": {
+    //     studioEndpoint: "blast-blocks",
+    //     nextVersion: "v0.1.0"
+    // },
+    // "blast-testnet": {
+    //     studioEndpoint: "blast-testnet-blocks",
+    //     nextVersion: "v0.1.0"
+    // },
     // "mumbai": {
     //     studioEndpoint: "mumbai-blocks",
     //     nextVersion: "v0.1.0"
     // },
-    "sei-testnet": {
-        studioEndpoint: "sei-testnet-blocks",
-        nextVersion: "v0.1.0"
+    "sei-atlantic": {
+        studioEndpoint: "sei-atltantic-blocks",
+        nextVersion: "v1.1.0"
     },
 
     "sei-mainnet": {
         studioEndpoint: "sei-mainnet-blocks",
-        nextVersion: "v0.1.0"
+        nextVersion: "v1.1.0"
     },
     "etherlink-mainnet": {
         studioEndpoint: "etherlink-mainnet-blocks",
-        nextVersion: "v0.1.0"
+        nextVersion: "v1.1.0"
     },
 
     "etherlink-testnet": {
         studioEndpoint: "etherlink-testnet-blocks",
-        nextVersion: "v0.1.0"
+        nextVersion: "v1.1.0"
     },
-    "xlayer-mainnet": {
-        studioEndpoint: "xlayer-blocks",
-        nextVersion: "v0.1.0"
-    },
-    "xlayer-sepolia": {
-        studioEndpoint: "xlayer-sepolia-blocks",
-        nextVersion: "v0.1.0"
-    },
-    "rootstock": {
-        studioEndpoint: "rootstock-blocks",
-        nextVersion: "v0.1.0"
-    },
-    "abstract": {
-        studioEndpoint: "blocks-abstract",
-        nextVersion: "v0.1.0"
-    },
-    "abstract-testnet": {
-        studioEndpoint: "blocks-abstract-testnet",
-        nextVersion: "v0.2.0"
-    },
-    "sonic": {
-        studioEndpoint: "blocks-sonic",
-        nextVersion: "v0.2.0"
-    },
-    "lumia": {
-        studioEndpoint: "lumia-blocks",
-        nextVersion: "v0.2.0"
-    },
-    "corn": {
-        studioEndpoint: "corn-blocks",
-        nextVersion: "v0.2.0"
-    },
-    "berachain": {
-        studioEndpoint: "berachain-blocks",
-        nextVersion: "v0.2.0"
-    },
-    "unichain": {
-        studioEndpoint: "unichain-blocks",
-        nextVersion: "v0.2.0"
-    }
+    // "xlayer-mainnet": {
+    //     studioEndpoint: "xlayer-blocks",
+    //     nextVersion: "v0.1.0"
+    // },
+    // "xlayer-sepolia": {
+    //     studioEndpoint: "xlayer-sepolia-blocks",
+    //     nextVersion: "v0.1.0"
+    // },
+    // "rootstock": {
+    //     studioEndpoint: "rootstock-blocks",
+    //     nextVersion: "v0.1.0"
+    // },
+    // "abstract": {
+    //     studioEndpoint: "blocks-abstract",
+    //     nextVersion: "v0.1.0"
+    // },
+    // "abstract-testnet": {
+    //     studioEndpoint: "blocks-abstract-testnet",
+    //     nextVersion: "v0.2.0"
+    // },
+    // "sonic": {
+    //     studioEndpoint: "blocks-sonic",
+    //     nextVersion: "v0.2.0"
+    // },
+    // "lumia": {
+    //     studioEndpoint: "lumia-blocks",
+    //     nextVersion: "v0.2.0"
+    // },
+    // "corn": {
+    //     studioEndpoint: "corn-blocks",
+    //     nextVersion: "v0.2.0"
+    // },
+    // "berachain": {
+    //     studioEndpoint: "berachain-blocks",
+    //     nextVersion: "v0.2.0"
+    // },
+    // "unichain": {
+    //     studioEndpoint: "unichain-blocks",
+    //     nextVersion: "v0.2.0"
+    // }
 }
 
 export default networks

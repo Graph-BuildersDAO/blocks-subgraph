@@ -39,6 +39,7 @@ const executeStudioDeployWithVersionIncrement = async (subgraphName: string, ver
   `;
 
   console.log("Deploy command:", deployCommand);
+  await executeCommand(deployCommand);
 
   let stderr = await executeComanndErrorReturn(deployCommand);
   if (stderr) {
@@ -86,7 +87,7 @@ export const build = async (network: string) => {
 export const deployStudio = async (version: string, subgraphName: string) => {
   const authkey = process.env.SUBGRAPH_STUDIO_DEPLOY_KEY!;
   console.log(authkey, 'authkey');
-  await executeCommand(`graph auth ${process.env.SUBGRAPH_STUDIO_DEPLOY_KEY!}`);
+  // await executeCommand(`graph auth ${process.env.SUBGRAPH_STUDIO_DEPLOY_KEY!}`);
   console.log("Done with auth");
   return executeStudioDeployWithVersionIncrement(subgraphName, version);
 };
@@ -102,7 +103,7 @@ export const deploy = async (network: string, studioName?: string, graphLabel?: 
  const authCmd = `graph auth ${pk}`
  await executeCommand(`cross-env mustache networks/${network}.json subgraph.template.yaml > subgraph.yaml`);
 
-
+ await executeCommand(authCmd)
   console.log(`Authenticated successfully for ${network}`);
 
   const version = nextVersion || "0.0.1";
