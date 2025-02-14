@@ -242,6 +242,34 @@ export const networks: NetworkConfigs = {
         studioEndpoint: "rootstock-blocks",
         nextVersion: "v0.1.0"
     },
+    "abstract": {
+        studioEndpoint: "blocks-abstract",
+        nextVersion: "v0.1.0"
+    },
+    "abstract-testnet": {
+        studioEndpoint: "blocks-abstract-testnet",
+        nextVersion: "v0.2.0"
+    },
+    "sonic": {
+        studioEndpoint: "blocks-sonic",
+        nextVersion: "v0.2.0"
+    },
+    "lumia": {
+        studioEndpoint: "lumia-blocks",
+        nextVersion: "v0.2.0"
+    },
+    "corn": {
+        studioEndpoint: "corn-blocks",
+        nextVersion: "v0.2.0"
+    },
+    "berachain": {
+        studioEndpoint: "berachain-blocks",
+        nextVersion: "v0.2.0"
+    },
+    "unichain": {
+        studioEndpoint: "unichain-blocks",
+        nextVersion: "v0.2.0"
+    }
 }
 
 export default networks
