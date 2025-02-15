@@ -259,6 +259,14 @@ export const networks: NetworkConfigs = {
     "unichain": {
         studioEndpoint: "unichain-blocks",
         nextVersion: "v0.2.0"
+    },
+    "mode-mainnet": {
+        studioEndpoint: "mode-mainnet-blocks",
+        nextVersion: "v0.2.0"
+    },
+    "vana": {
+        studioEndpoint: "vana-blocks",
+        nextVersion: "v0.2.0"
     }
 }
 
