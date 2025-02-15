@@ -262,11 +262,11 @@ export const networks: NetworkConfigs = {
     },
     "mode-mainnet": {
         studioEndpoint: "mode-mainnet-blocks",
-        nextVersion: "v0.1.0"
+        nextVersion: "v0.2.0"
     },
     "vana": {
         studioEndpoint: "vana-blocks",
-        nextVersion: "v0.1.0"
+        nextVersion: "v0.2.0"
     }
 }
 
